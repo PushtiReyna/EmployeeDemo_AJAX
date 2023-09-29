@@ -1,0 +1,293 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\EmployeeCRRUDAJAX.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EmployeeCRRUDAJAX.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\Images\\05cebbec-1065-4e9c-92bd-56228236c6ea-Screenshot (2).png",
+      "PackagePath": "staticwebassets\\Images\\05cebbec-1065-4e9c-92bd-56228236c6ea-Screenshot (2).png"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\Images\\37ec20e0-0bbf-4c08-815e-5f42e6d8cb9b-Screenshot (9).png",
+      "PackagePath": "staticwebassets\\Images\\37ec20e0-0bbf-4c08-815e-5f42e6d8cb9b-Screenshot (9).png"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\Images\\4d66cbc8-9349-4d31-8ef9-3b2096bffee1-Screenshot (10).png",
+      "PackagePath": "staticwebassets\\Images\\4d66cbc8-9349-4d31-8ef9-3b2096bffee1-Screenshot (10).png"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\Images\\50109d65-7f6b-45e2-990a-ff1576573722-Screenshot (6).png",
+      "PackagePath": "staticwebassets\\Images\\50109d65-7f6b-45e2-990a-ff1576573722-Screenshot (6).png"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\Images\\a1f336d9-c297-4093-8d5d-e8636fd17147-Screenshot (6).png",
+      "PackagePath": "staticwebassets\\Images\\a1f336d9-c297-4093-8d5d-e8636fd17147-Screenshot (6).png"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\Images\\b8e378bc-fad9-464d-aead-7821b62e156d-Screenshot (1).png",
+      "PackagePath": "staticwebassets\\Images\\b8e378bc-fad9-464d-aead-7821b62e156d-Screenshot (1).png"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\Images\\e88ecd15-dd46-446b-8d6d-7a1e4b29470a-Screenshot (1).png",
+      "PackagePath": "staticwebassets\\Images\\e88ecd15-dd46-446b-8d6d-7a1e4b29470a-Screenshot (1).png"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.EmployeeCRRUDAJAX.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.EmployeeCRRUDAJAX.props",
+      "PackagePath": "build\\EmployeeCRRUDAJAX.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.EmployeeCRRUDAJAX.props",
+      "PackagePath": "buildMultiTargeting\\EmployeeCRRUDAJAX.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.EmployeeCRRUDAJAX.props",
+      "PackagePath": "buildTransitive\\EmployeeCRRUDAJAX.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

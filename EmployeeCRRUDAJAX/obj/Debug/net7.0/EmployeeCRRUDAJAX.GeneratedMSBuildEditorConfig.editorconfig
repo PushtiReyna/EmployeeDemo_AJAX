@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\project\EmployeeDemo_AJAX\EmployeeDemo_AJAX\EmployeeCRRUDAJAX
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/project/EmployeeDemo_AJAX/EmployeeDemo_AJAX/EmployeeCRRUDAJAX/Views/Client/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/EmployeeDemo_AJAX/EmployeeDemo_AJAX/EmployeeCRRUDAJAX/Views/Client/_AddUserPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XF9BZGRVc2VyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/EmployeeDemo_AJAX/EmployeeDemo_AJAX/EmployeeCRRUDAJAX/Views/Client/_UpdateUserPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XF9VcGRhdGVVc2VyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/project/EmployeeDemo_AJAX/EmployeeDemo_AJAX/EmployeeCRRUDAJAX/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

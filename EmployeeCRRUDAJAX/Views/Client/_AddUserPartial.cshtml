@@ -1,0 +1,97 @@
+﻿@model EmployeeCRRUDAJAX.Models.UserMst
+
+<form name="AddUser" method="post" asp-action="AddUser" enctype="multipart/form-data" id="AddUser">
+
+    <div class="modal-header">
+        <h4>Create User</h4>
+    </div>
+
+
+    <div class="modal-body">
+        <div class=" form-control">
+
+           @* <div class="mb-3">
+                <input type="hidden" class=" form-control" asp-for=Id readonly />
+            </div>*@
+
+            <div class="mb-3">
+                <label class=" form-label">First Name</label>
+                <input type="text" class=" form-control" asp-for=FirstName placeholder="Enter First Name" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class=" form-label">Last Name</label>
+                <input type="text" class=" form-control" asp-for=LastName placeholder="Enter Last Name" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class=" form-label">Gender</label>
+                <br />
+
+                <label>Male</label>
+                <input type="radio" asp-for=Gender value="Male" />
+
+                <label>Female</label>
+                <input type="radio" asp-for=Gender value="Female" />
+                <span asp-validation-for="Gender" class="text-danger"></span>
+
+            </div>
+
+            <div class="mb-3">
+                <label class=" form-label">Date Of Birth</label>
+                <input type="date" class=" form-control" asp-for=Dob placeholder="Enter Date of Birth" />
+                <span asp-validation-for="Dob" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class=" form-label">Mobile No.</label>
+                <input type="number" class=" form-control" asp-for=MobileNo placeholder="Enter Phone No." />
+                <span asp-validation-for="MobileNo" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class=" form-label">Username</label>
+                <input type="text" class=" form-control" asp-for=UserName placeholder="Enter Username" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+
+            </div>
+
+            <div class="mb-3">
+                <label class=" form-label">Password</label>
+                <input class="form-control" asp-for=Password placeholder="Enter Password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class=" form-label">Email</label>
+                <input class=" form-control" asp-for=Email placeholder="Enter Email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+
+            <div class="mb-3">
+                <input type="hidden" class=" form-control" asp-for=Profilephoto readonly id="photourl"/>
+            </div>
+
+            <div class="mb-3">
+                <label class=" form-label">Profile photo </label>
+                <input type="file" class="form-control custom-file-input" asp-for=ProfilePic id="customfile" />
+                <span asp-validation-for="Profilephoto" class="text-danger"></span>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <div class="col-12">
+
+            <button type="submit" onclick="Create()" class=" btn btn-success">Save</button>
+            <a class=" btn  btn-danger m-1  text-white" data-dismiss="modal" asp-action="Index">Cancel</a>
+
+        </div>
+    </div>
+</form>
+

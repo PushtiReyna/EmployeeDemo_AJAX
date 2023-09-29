@@ -1,0 +1,177 @@
+﻿@model EmployeeCRRUDAJAX.Models.UserMst
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+<div class="col-10 mb-4" style="margin: 25px;">
+
+    <p><button type="button" class="btn-success" onclick="GetUser()">Add New</button></p>
+
+    <table class="table table-striped table table-bordered table-responsive" id="tbllist">
+        <thead class="thead-dark">
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Gender</th>
+                <th>Dob</th>
+                <th>MobileNo</th>
+                <th>UserName</th>
+                <th>Password</th>
+                <th>Email</th>
+                <th>Profile Photo</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+<div class="modal fade" role="dialog" id="UserModal" aria-labelledby="UserModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" id="UsermodalBody">
+        </div>
+    </div>
+
+</div>
+
+@section Scripts
+    {
+    <script type="text/javascript">
+     
+
+        var dataTable;
+        $(document).ready(function () {
+
+            dataTable = $('#tbllist').DataTable({
+
+                //"paging": false,
+                //"filter": false,
+                //"sorting" : false,
+
+
+                "ajax": {
+                    "url": "/Client/GetDataTable",
+                    "type": "GET",
+                    "datatpe": "json"
+                },
+                "columns": [
+                    { "data": "FirstName" },
+                    { "data": "LastName" },
+                    { "data": "Gender" },
+                    { "data": "Dob" },
+                    { "data": "MobileNo" },
+                    { "data": "UserName" },
+                    { "data": "Password" },
+                    { "data": "Email" },
+                    { "data":"Profilephoto" },
+                    {
+                        "data": "Id", "width": "50px", "render": function (data) {
+                            return '<button class="btn btn-success" onclick="EditUser(' + data + ')">Edit</button>'
+                        }
+                    },
+                    {
+                        "data": "Id", "width": "50px", "render": function (data) {
+                            return '<button class="btn btn-danger" onclick="Delete(' + data + ')">Delete</button>'
+                        }
+                    },
+
+                ]
+            });
+
+        });
+
+        debugger;
+        function GetUser(id) {
+            $.get("/Client/AddUser", { id: id }, function (res) {
+
+                $("#UsermodalBody").html(res);
+                $("#UserModal").modal('show');
+
+            })
+        }
+
+        function Create() {
+            var modal = $("#UserModal");
+            var form = $('form[name ="AddUser"]');
+            form.validate();
+            if (!form.valid()) {
+                return;
+            }
+            else {
+                var data = form.serialize();
+                $.post("/Client/AddUser", data, function (res) {
+                    if (res) {
+                        modal.modal('hide');
+                        dataTable.ajax.reload();
+                    }
+                })
+            }
+        }
+
+        function EditUser(id) {
+            $.get("/Client/UpdateUser", { id: id }, function (res) {
+
+                $("#UsermodalBody").html(res);
+                $("#UserModal").modal('show');
+
+            })
+        }
+
+        function Update() {
+            var modal = $("#UserModal");
+            var form = $('form[name ="UpdateUser"]');
+            form.validate();
+            if (!form.valid()) {
+                return;
+            }
+            else {
+                var data = form.serialize();
+                $.post("/Client/EditUser", data, function (res) {
+                    if (res) {
+
+                        $(".custom-file-input").on("change", function () {
+                            var filename = $(this).val().split("\\").pop();
+                            document.getElementById('photourl').value = filename;
+                        });
+
+                        modal.modal('hide');
+                        dataTable.ajax.reload();
+                    }
+                })
+            }
+        }
+
+        function Delete(id) {
+            if (confirm("Are you sure?") == true) {
+                $.get("/Client/Delete", { id: id }, function (res) {
+                    if (res) {
+                        dataTable.ajax.reload();
+                    }
+                })
+            }
+            dataTable.ajax.reload();
+        }
+
+       
+
+        $(".custom-file-input").on("change",function(){
+            var filename = $(this).val().split("\\").pop();
+            document.getElementById('photourl').value = filename;
+        });
+
+        //if (!document.getElementById("customfile")) {
+        //    alert("Select File first");
+        //    return;
+        //}
+        //var url = "/Client/UploadFile";
+        //var data = new FormData(document.getElementById("AddUser"));
+        //fetch(url, {
+        //    method: "POST",
+        //    data: data
+        //});
+
+    </script>
+    }
+   
