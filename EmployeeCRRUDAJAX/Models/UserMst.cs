@@ -20,7 +20,7 @@ public partial class UserMst
     [Required(ErrorMessage = "Please Select Gender.")]
     public string Gender { get; set; } = null!;
 
-    [DataType(DataType.DateTime)]
+    [DataType(DataType.Date)]
     [Required(ErrorMessage = "Please enter Date Of Birth")]
     public DateTime Dob { get; set; }
 
@@ -33,6 +33,7 @@ public partial class UserMst
     [Required(ErrorMessage = "Please Enter username")]
     public string UserName { get; set; } = null!;
 
+    [DataType(DataType.Password)]
     [Required(ErrorMessage = "Please Enter password")]
     public string Password { get; set; } = null!;
 
@@ -50,5 +51,5 @@ public partial class UserMst
     public string? Profilephoto { get; set; }
 
     [NotMapped]
-    public IFormFile ProfilePic { get; set; }
+    public IFormFile ProfileImage { get; set; }
 }

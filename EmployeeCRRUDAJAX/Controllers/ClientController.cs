@@ -1,9 +1,9 @@
 ﻿using EmployeeCRRUDAJAX.Models;
-using EmployeeCRRUDAJAX.ViewModel;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
+using System;
 using System.Diagnostics.Metrics;
 
 namespace EmployeeCRRUDAJAX.Controllers
@@ -31,91 +31,57 @@ namespace EmployeeCRRUDAJAX.Controllers
             return result;
 
         }
+
         [HttpGet]
         public IActionResult AddUser(int id)
         {
             var user = _db.UserMsts.FirstOrDefault(x => x.Id == id);
             return PartialView("_AddUserPartial", user);
+           // return View("abc", user);
         }
+
         [HttpPost]
         public ActionResult AddUser(UserMst user)
         {
-
-            // ModelState.Remove("ProfilePic");
-              ModelState.Remove("Profilephoto");
-           // ModelState.Remove("Id");
+            ModelState.Remove("Profilephoto");
+          
             if (ModelState.IsValid)
             {
-                //if(user.Id > 0)
-                //{
-                //    string uniquefilname = UploadFile(user);
-                //    user.Profilephoto = uniquefilname;
-
-                //    _db.Entry(user).State = EntityState.Modified;
-                //}
-                //else
-                //{
-
                 string uniquefilname = UploadFile(user);
                 user.Profilephoto = uniquefilname;
-                //user.IsActive = true;
                 _db.UserMsts.Add(user);
-                //}
                 _db.SaveChanges();
-                return RedirectToAction("Index");
+               return RedirectToAction("Index");
             }
             return RedirectToAction("Index");
         }
+
 
         [HttpGet]
         public IActionResult UpdateUser(int id)
         {
             var user = _db.UserMsts.FirstOrDefault(x => x.Id == id);
-            return PartialView("_UpdateUserPartial", user);
+            return PartialView("_UpdateUserPartial",user);
         }
 
-        //[HttpPost]
-        //public IActionResult EditUser(UserMst user)
-        //{
-        //    if (user.Id > 0)
-        //    {
-        //        if (_db.UserMsts.Where(x => x.Profilephoto == user.Profilephoto && x.Id == user.Id).Any())
-        //        {
-                   
-        //            _db.Entry(user).State = EntityState.Modified;
-        //            _db.SaveChanges();
-        //        }
-        //        else
-        //        {
-        //            string uniquefilname = UploadFile(user);
-        //             user.Profilephoto = uniquefilname;
-
-        //            _db.Entry(user).State = EntityState.Modified;
-        //            _db.SaveChanges();
-        //        }
-        //     //   _db.Entry(user).State = EntityState.Modified;
-        //      //  _db.SaveChanges();
-        //    }
-        //    return RedirectToAction("Index");
-        //}
-
         [HttpPost]
-        public IActionResult EditUser(UserMstViewModel user)
+        public IActionResult EditUser(UserMst user)
         {
             if (user.Id > 0)
             {
-                var updateuser = _db.UserMsts.FirstOrDefault(x => x.Id == user.Id);
+                if (user.ProfileImage != null)
+                {
+                    string uniquefilname = UploadFile(user);
+                    user.Profilephoto = uniquefilname;
 
-              
-                string uniquefilname = UploadFile(updateuser);
-                updateuser.Profilephoto = uniquefilname;
-
-                _db.Entry(updateuser).State = EntityState.Modified;
+                    _db.Entry(user).State = EntityState.Modified;
                     _db.SaveChanges();
-                
-                    
-
-                  
+                }
+                else
+                {
+                    _db.Entry(user).State = EntityState.Modified;
+                    _db.SaveChanges();
+                }
             }
             return RedirectToAction("Index");
         }
@@ -136,16 +102,17 @@ namespace EmployeeCRRUDAJAX.Controllers
         {
             string fileName = null;
 
-            if (user.ProfilePic != null)
+            if (user.ProfileImage != null)
             {
                 string uploadDir = Path.Combine(_webHostEnvironment.WebRootPath, "Images");
-                fileName = Guid.NewGuid().ToString() + "-" + user.ProfilePic.FileName;
+                fileName = Guid.NewGuid().ToString() + "-" + user.ProfileImage.FileName;
 
                 string filePath = Path.Combine(uploadDir, fileName);
                 using (var fileStream = new FileStream(filePath, FileMode.Create))
                 {
-                    user.ProfilePic.CopyTo(fileStream);
+                    user.ProfileImage.CopyTo(fileStream);
                 }
+                
             }
             return fileName;
         }

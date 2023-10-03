@@ -131,10 +131,6 @@
                 $.post("/Client/EditUser", data, function (res) {
                     if (res) {
 
-                        $(".custom-file-input").on("change", function () {
-                            var filename = $(this).val().split("\\").pop();
-                            document.getElementById('photourl').value = filename;
-                        });
 
                         modal.modal('hide');
                         dataTable.ajax.reload();
@@ -172,6 +168,13 @@
         //    data: data
         //});
 
+        
+   
+
     </script>
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
     }
    

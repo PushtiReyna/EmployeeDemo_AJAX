@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\project\EmployeeDemo_AJAX\EmployeeDemo_AJAX\EmployeeCRRUDAJAX
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/project/EmployeeDemo_AJAX/EmployeeDemo_AJAX/EmployeeCRRUDAJAX/Views/Client/AddUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEFkZFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/project/EmployeeDemo_AJAX/EmployeeDemo_AJAX/EmployeeCRRUDAJAX/Views/Client/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

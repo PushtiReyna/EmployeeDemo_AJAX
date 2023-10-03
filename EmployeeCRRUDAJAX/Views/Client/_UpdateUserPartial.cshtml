@@ -70,24 +70,17 @@
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
 
-
             <div class="mb-3">
-                @* <label class=" form-label">Profile Picture</label>*@
-                <input type="hidden" class=" form-control" asp-for=Profilephoto readonly id="photourl" />
-                @* <span asp-validation-for="Profilephoto" class="text-danger"></span>*@
+                <input type="hidden" class=" form-control" asp-for=Profilephoto id="photourl" readonly />
             </div>
 
-           @* <div class="mb-3">
-                <label asp-for="Profilephoto" class="control-label"></label>
-                <img id="previewphoto" src="~/Images/@Model.Profilephoto" width="125" height="125" />
-                <span asp-validation-for="Profilephoto" class="text-danger"></span>
-            </div>
-*@
+           
+
             <div class="mb-3">
-               
+
                 <label class=" form-label">Profile photo</label>
                 <img id="previewphoto" src="~/Images/@Model.Profilephoto" width="125" height="125" />
-                <input type="file" class="form-control custom-file-input" asp-for=Profilephoto id="customfile" />
+                <input type="file" class="form-control custom-file-input"  asp-for=ProfileImage id="customfile" />
                 <span asp-validation-for="Profilephoto" class="text-danger"></span>
             </div>
 
@@ -105,4 +98,6 @@
     </div>
 </form>
 
-
+@{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}

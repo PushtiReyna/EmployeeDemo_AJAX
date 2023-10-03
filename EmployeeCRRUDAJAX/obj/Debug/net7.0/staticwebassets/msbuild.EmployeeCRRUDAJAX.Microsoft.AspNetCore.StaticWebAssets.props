@@ -48,12 +48,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\05cebbec-1065-4e9c-92bd-56228236c6ea-Screenshot (2).png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\2b20858d-f99d-469a-a2c9-8ea0cd44f24b-Screenshot (11).png))">
       <SourceType>Package</SourceType>
       <SourceId>EmployeeCRRUDAJAX</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EmployeeCRRUDAJAX</BasePath>
-      <RelativePath>Images/05cebbec-1065-4e9c-92bd-56228236c6ea-Screenshot (2).png</RelativePath>
+      <RelativePath>Images/2b20858d-f99d-469a-a2c9-8ea0cd44f24b-Screenshot (11).png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -62,14 +62,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\05cebbec-1065-4e9c-92bd-56228236c6ea-Screenshot (2).png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\2b20858d-f99d-469a-a2c9-8ea0cd44f24b-Screenshot (11).png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\37ec20e0-0bbf-4c08-815e-5f42e6d8cb9b-Screenshot (9).png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\cb8c7c76-3753-41f2-8ea4-c1a5ffb15df7-Screenshot (4).png))">
       <SourceType>Package</SourceType>
       <SourceId>EmployeeCRRUDAJAX</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EmployeeCRRUDAJAX</BasePath>
-      <RelativePath>Images/37ec20e0-0bbf-4c08-815e-5f42e6d8cb9b-Screenshot (9).png</RelativePath>
+      <RelativePath>Images/cb8c7c76-3753-41f2-8ea4-c1a5ffb15df7-Screenshot (4).png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -78,14 +78,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\37ec20e0-0bbf-4c08-815e-5f42e6d8cb9b-Screenshot (9).png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\cb8c7c76-3753-41f2-8ea4-c1a5ffb15df7-Screenshot (4).png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\4d66cbc8-9349-4d31-8ef9-3b2096bffee1-Screenshot (10).png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\df8919ea-29a4-4363-8f10-668797b8bf1d-Screenshot (17).png))">
       <SourceType>Package</SourceType>
       <SourceId>EmployeeCRRUDAJAX</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EmployeeCRRUDAJAX</BasePath>
-      <RelativePath>Images/4d66cbc8-9349-4d31-8ef9-3b2096bffee1-Screenshot (10).png</RelativePath>
+      <RelativePath>Images/df8919ea-29a4-4363-8f10-668797b8bf1d-Screenshot (17).png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -94,14 +94,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\4d66cbc8-9349-4d31-8ef9-3b2096bffee1-Screenshot (10).png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\df8919ea-29a4-4363-8f10-668797b8bf1d-Screenshot (17).png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\50109d65-7f6b-45e2-990a-ff1576573722-Screenshot (6).png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\e8d7555a-f843-45a7-a1e6-7a157cbd666f-Screenshot (8).png))">
       <SourceType>Package</SourceType>
       <SourceId>EmployeeCRRUDAJAX</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EmployeeCRRUDAJAX</BasePath>
-      <RelativePath>Images/50109d65-7f6b-45e2-990a-ff1576573722-Screenshot (6).png</RelativePath>
+      <RelativePath>Images/e8d7555a-f843-45a7-a1e6-7a157cbd666f-Screenshot (8).png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -110,55 +110,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\50109d65-7f6b-45e2-990a-ff1576573722-Screenshot (6).png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\a1f336d9-c297-4093-8d5d-e8636fd17147-Screenshot (6).png))">
-      <SourceType>Package</SourceType>
-      <SourceId>EmployeeCRRUDAJAX</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EmployeeCRRUDAJAX</BasePath>
-      <RelativePath>Images/a1f336d9-c297-4093-8d5d-e8636fd17147-Screenshot (6).png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\a1f336d9-c297-4093-8d5d-e8636fd17147-Screenshot (6).png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\b8e378bc-fad9-464d-aead-7821b62e156d-Screenshot (1).png))">
-      <SourceType>Package</SourceType>
-      <SourceId>EmployeeCRRUDAJAX</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EmployeeCRRUDAJAX</BasePath>
-      <RelativePath>Images/b8e378bc-fad9-464d-aead-7821b62e156d-Screenshot (1).png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\b8e378bc-fad9-464d-aead-7821b62e156d-Screenshot (1).png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\e88ecd15-dd46-446b-8d6d-7a1e4b29470a-Screenshot (1).png))">
-      <SourceType>Package</SourceType>
-      <SourceId>EmployeeCRRUDAJAX</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EmployeeCRRUDAJAX</BasePath>
-      <RelativePath>Images/e88ecd15-dd46-446b-8d6d-7a1e4b29470a-Screenshot (1).png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\e88ecd15-dd46-446b-8d6d-7a1e4b29470a-Screenshot (1).png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\e8d7555a-f843-45a7-a1e6-7a157cbd666f-Screenshot (8).png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\site.js))">
       <SourceType>Package</SourceType>

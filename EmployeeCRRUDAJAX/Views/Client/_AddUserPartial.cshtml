@@ -10,23 +10,25 @@
     <div class="modal-body">
         <div class=" form-control">
 
+            @Html.ValidationSummary()
+
            @* <div class="mb-3">
                 <input type="hidden" class=" form-control" asp-for=Id readonly />
             </div>*@
 
-            <div class="mb-3">
+            <div class="form-group">
                 <label class=" form-label">First Name</label>
                 <input type="text" class=" form-control" asp-for=FirstName placeholder="Enter First Name" />
                 <span asp-validation-for="FirstName" class="text-danger"></span>
             </div>
 
-            <div class="mb-3">
+            <div class="form-group">
                 <label class=" form-label">Last Name</label>
                 <input type="text" class=" form-control" asp-for=LastName placeholder="Enter Last Name" />
                 <span asp-validation-for="LastName" class="text-danger"></span>
             </div>
 
-            <div class="mb-3">
+            <div class="form-group">
                 <label class=" form-label">Gender</label>
                 <br />
 
@@ -39,46 +41,47 @@
 
             </div>
 
-            <div class="mb-3">
+            <div class="form-group">
                 <label class=" form-label">Date Of Birth</label>
                 <input type="date" class=" form-control" asp-for=Dob placeholder="Enter Date of Birth" />
                 <span asp-validation-for="Dob" class="text-danger"></span>
             </div>
 
-            <div class="mb-3">
+            <div class="form-group">
                 <label class=" form-label">Mobile No.</label>
                 <input type="number" class=" form-control" asp-for=MobileNo placeholder="Enter Phone No." />
                 <span asp-validation-for="MobileNo" class="text-danger"></span>
             </div>
 
-            <div class="mb-3">
+            <div class="form-group">
                 <label class=" form-label">Username</label>
                 <input type="text" class=" form-control" asp-for=UserName placeholder="Enter Username" />
                 <span asp-validation-for="UserName" class="text-danger"></span>
 
             </div>
 
-            <div class="mb-3">
+            <div class="form-group">
                 <label class=" form-label">Password</label>
                 <input class="form-control" asp-for=Password placeholder="Enter Password" />
                 <span asp-validation-for="Password" class="text-danger"></span>
             </div>
 
-            <div class="mb-3">
+            <div class="form-group">
                 <label class=" form-label">Email</label>
                 <input class=" form-control" asp-for=Email placeholder="Enter Email" />
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
 
 
-            <div class="mb-3">
-                <input type="hidden" class=" form-control" asp-for=Profilephoto readonly id="photourl"/>
+            <div class="form-group">
+                <input type="hidden" class=" form-control" asp-for=ProfileImage readonly id="photourl"/>
             </div>
 
-            <div class="mb-3">
+            <div class="form-group">
                 <label class=" form-label">Profile photo </label>
-                <input type="file" class="form-control custom-file-input" asp-for=ProfilePic id="customfile" />
+                <input type="file" class="form-control custom-file-input" asp-for=ProfileImage id="customfile" />
                 <span asp-validation-for="Profilephoto" class="text-danger"></span>
+                
             </div>
 
 
@@ -94,4 +97,8 @@
         </div>
     </div>
 </form>
-
+@section Script{
+@{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}
