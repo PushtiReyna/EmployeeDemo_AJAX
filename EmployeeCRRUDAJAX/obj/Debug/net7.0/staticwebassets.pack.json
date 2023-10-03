@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\EmployeeCRRUDAJAX.bundle.scp.css"
     },
     {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\Images\\1ef23200-4528-44bc-8eff-799b52350eb1-Screenshot (10).png",
+      "PackagePath": "staticwebassets\\Images\\1ef23200-4528-44bc-8eff-799b52350eb1-Screenshot (10).png"
+    },
+    {
       "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\Images\\2b20858d-f99d-469a-a2c9-8ea0cd44f24b-Screenshot (11).png",
       "PackagePath": "staticwebassets\\Images\\2b20858d-f99d-469a-a2c9-8ea0cd44f24b-Screenshot (11).png"
     },
@@ -19,6 +23,14 @@
     {
       "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\Images\\e8d7555a-f843-45a7-a1e6-7a157cbd666f-Screenshot (8).png",
       "PackagePath": "staticwebassets\\Images\\e8d7555a-f843-45a7-a1e6-7a157cbd666f-Screenshot (8).png"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\Images\\f0cf36e7-879f-41c3-b46b-6b1d20e5db8b-Screenshot (9).png",
+      "PackagePath": "staticwebassets\\Images\\f0cf36e7-879f-41c3-b46b-6b1d20e5db8b-Screenshot (9).png"
+    },
+    {
+      "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\Images\\f55068ed-6365-4789-8426-4011c3421d93-Screenshot (12).png",
+      "PackagePath": "staticwebassets\\Images\\f55068ed-6365-4789-8426-4011c3421d93-Screenshot (12).png"
     },
     {
       "Id": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\css\\site.css",

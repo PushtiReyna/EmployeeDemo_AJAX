@@ -39,7 +39,7 @@
 @section Scripts
     {
     <script type="text/javascript">
-     
+
 
         var dataTable;
         $(document).ready(function () {
@@ -65,7 +65,11 @@
                     { "data": "UserName" },
                     { "data": "Password" },
                     { "data": "Email" },
-                    { "data":"Profilephoto" },
+                    {
+                        "data": "Profilephoto", "render": function (data) {
+                            return '<img src="/Images/' + data + '" style="height:100px;width:100px;"/>';
+                        }
+                    },
                     {
                         "data": "Id", "width": "50px", "render": function (data) {
                             return '<button class="btn btn-success" onclick="EditUser(' + data + ')">Edit</button>'
@@ -150,31 +154,16 @@
             dataTable.ajax.reload();
         }
 
-       
 
-        $(".custom-file-input").on("change",function(){
+
+        $(".custom-file-input").on("change", function () {
             var filename = $(this).val().split("\\").pop();
             document.getElementById('photourl').value = filename;
         });
 
-        //if (!document.getElementById("customfile")) {
-        //    alert("Select File first");
-        //    return;
-        //}
-        //var url = "/Client/UploadFile";
-        //var data = new FormData(document.getElementById("AddUser"));
-        //fetch(url, {
-        //    method: "POST",
-        //    data: data
-        //});
-
-        
-   
 
     </script>
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
+
 
     }
-   
+

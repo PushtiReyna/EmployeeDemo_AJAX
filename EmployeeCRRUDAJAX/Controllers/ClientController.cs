@@ -37,31 +37,33 @@ namespace EmployeeCRRUDAJAX.Controllers
         {
             var user = _db.UserMsts.FirstOrDefault(x => x.Id == id);
             return PartialView("_AddUserPartial", user);
-           // return View("abc", user);
+             //return View("AddUser", user);
         }
 
         [HttpPost]
         public ActionResult AddUser(UserMst user)
         {
             ModelState.Remove("Profilephoto");
-          
+
             if (ModelState.IsValid)
             {
                 string uniquefilname = UploadFile(user);
                 user.Profilephoto = uniquefilname;
                 _db.UserMsts.Add(user);
                 _db.SaveChanges();
-               return RedirectToAction("Index");
+                return RedirectToAction("Index");
             }
-            return RedirectToAction("Index");
+            else
+            {
+                return PartialView("_UpdateUserPartial");
+            }
         }
-
 
         [HttpGet]
         public IActionResult UpdateUser(int id)
         {
             var user = _db.UserMsts.FirstOrDefault(x => x.Id == id);
-            return PartialView("_UpdateUserPartial",user);
+            return PartialView("_UpdateUserPartial", user);
         }
 
         [HttpPost]
@@ -112,10 +114,13 @@ namespace EmployeeCRRUDAJAX.Controllers
                 {
                     user.ProfileImage.CopyTo(fileStream);
                 }
-                
+
             }
             return fileName;
         }
+
+
+
 
     }
 }

@@ -47,7 +47,7 @@ public partial class UserMst
 
     public bool IsDelete { get; set; }
 
-    [Required(ErrorMessage = "Please select profile photo")]
+    //[Required(ErrorMessage = "Please select profile photo")]
     public string? Profilephoto { get; set; }
 
     [NotMapped]

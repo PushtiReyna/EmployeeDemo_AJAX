@@ -80,8 +80,8 @@
 
                 <label class=" form-label">Profile photo</label>
                 <img id="previewphoto" src="~/Images/@Model.Profilephoto" width="125" height="125" />
-                <input type="file" class="form-control custom-file-input"  asp-for=ProfileImage id="customfile" />
-                <span asp-validation-for="Profilephoto" class="text-danger"></span>
+                <input type="file" class="form-control custom-file-input" asp-for=ProfileImage id="customfile" />
+                @*<span asp-validation-for="Profilephoto" class="text-danger"></span>*@
             </div>
 
 
@@ -98,6 +98,6 @@
     </div>
 </form>
 
-@{
+@*@{
     await Html.RenderPartialAsync("_ValidationScriptsPartial");
-}
+}*@

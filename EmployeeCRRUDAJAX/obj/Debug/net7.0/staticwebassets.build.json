@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OnAEtiyJBRgt+0u1vBsUC3ncslxpsxTTShUgKLx9tKA=",
+  "Hash": "32nKv+I4NOVLr3d3ukAfRbcYl+lEZyY7JT9AaVUZFNU=",
   "Source": "EmployeeCRRUDAJAX",
   "BasePath": "_content/EmployeeCRRUDAJAX",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\Images\\1ef23200-4528-44bc-8eff-799b52350eb1-Screenshot (10).png",
+      "SourceId": "EmployeeCRRUDAJAX",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\",
+      "BasePath": "_content/EmployeeCRRUDAJAX",
+      "RelativePath": "Images/1ef23200-4528-44bc-8eff-799b52350eb1-Screenshot (10).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\1ef23200-4528-44bc-8eff-799b52350eb1-Screenshot (10).png"
+    },
+    {
       "Identity": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\Images\\2b20858d-f99d-469a-a2c9-8ea0cd44f24b-Screenshot (11).png",
       "SourceId": "EmployeeCRRUDAJAX",
       "SourceType": "Discovered",
@@ -151,6 +168,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\e8d7555a-f843-45a7-a1e6-7a157cbd666f-Screenshot (8).png"
+    },
+    {
+      "Identity": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\Images\\f0cf36e7-879f-41c3-b46b-6b1d20e5db8b-Screenshot (9).png",
+      "SourceId": "EmployeeCRRUDAJAX",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\",
+      "BasePath": "_content/EmployeeCRRUDAJAX",
+      "RelativePath": "Images/f0cf36e7-879f-41c3-b46b-6b1d20e5db8b-Screenshot (9).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f0cf36e7-879f-41c3-b46b-6b1d20e5db8b-Screenshot (9).png"
+    },
+    {
+      "Identity": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\Images\\f55068ed-6365-4789-8426-4011c3421d93-Screenshot (12).png",
+      "SourceId": "EmployeeCRRUDAJAX",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\",
+      "BasePath": "_content/EmployeeCRRUDAJAX",
+      "RelativePath": "Images/f55068ed-6365-4789-8426-4011c3421d93-Screenshot (12).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f55068ed-6365-4789-8426-4011c3421d93-Screenshot (12).png"
     },
     {
       "Identity": "D:\\project\\EmployeeDemo_AJAX\\EmployeeDemo_AJAX\\EmployeeCRRUDAJAX\\wwwroot\\js\\site.js",
